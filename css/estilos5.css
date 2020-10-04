@@ -1,0 +1,104 @@
+/*-----Estilos del la secccion CONTACTENOS------*/
+body{
+   background-image: url(../img/fondo-blanco.jpg);
+   background-size: cover;
+}
+/*Menu de Navegacion*/
+.logoP{
+    width: 15%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+.logoSP{
+    margin-top: 0.7em;  
+    width: 40px;
+}
+div ul li{
+    margin-left: 1em;
+    color: #d7d6d8;
+    font-weight: bold;  
+}
+div ul li:hover{
+   color: #ffffff;
+   font-size: 1.1em;
+}
+.login{
+    color:#d7d6d8;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 1em;
+}
+.login:hover{
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    background-color: #2f2f30;
+    color: #ffffff;
+}
+/*--Estilos del contenido*/
+
+.row{
+    background-image: url(../img/FondoLogin.jpg);
+    background-attachment:local;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-sm-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.formContacto{
+    background-color: #ffffffa8;
+    box-shadow: 1px 1px 1px  #a3a3a3;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+fieldset{
+    border: none;
+}
+input,textarea,.lista{
+    border-radius: 5px; 
+    width: 100%;
+    font-family:inherit;
+    box-shadow: 1px 1px 1px#76747c;
+}
+.titulo{
+    color: #173b88;
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.boton{
+    background: #173b88;
+    color: rgb(236, 236, 236);
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px; 
+    border: none;
+    box-shadow: 1px 1px 1px #76747c;
+    
+}
+.boton:hover{
+    background: #3877d4;
+}
+
+/*Estilo Footer*/
+.fondof{
+    background: #232324;
+    color: #d7d6d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
